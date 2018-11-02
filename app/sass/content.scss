@@ -1,14 +1,14 @@
 @import 'vars.scss';
 
 .content{
-  position: absolute;
+  position: fixed;
   top: 60px;
   left: 38px;
   text-align: center;
   padding: 15px 20px;
   height: 100%;
+  width: 80%;
   transition: 0.3s ease;
-  background-color: #ccc;
   &.active{
     left: 265px;
   }

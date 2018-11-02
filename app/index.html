@@ -31,7 +31,7 @@
                 </button>
                 <ul class="sidebar__menu">
                     <li class="sidebar__menu-items">
-                        <a href="#" class="sidebar__menu-links">Table</a>
+                        <a href="#table" class="sidebar__menu-links" onclick="showTable('table')">Table</a>
                     </li>
                     <li class="sidebar__menu-items">
                         <a href="#" class="sidebar__menu-links">Carousel</a>
@@ -39,9 +39,11 @@
                 </ul>
             </aside>
             <article class="content" id="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias architecto delectus
-                    distinctio doloribus ea earum explicabo ipsum iure, nemo officia porro, qui quia ratione
-                    repellendus similique unde vero voluptate.</p>
+                <div id="table-container" class="table">
+                    <input type="number" class="table__rows" id="rows" value="3" placeholder="Строки">
+                    <input type="number" class="table__cols" id="columns" value="2" placeholder="Столбцы">
+                    <button class="table__button" onclick="addTable();">Сформировать</button>
+                </div>
             </article>
         </section>
         <footer class="footer">
@@ -56,7 +58,11 @@
             </div>
         </footer>
     </main>
+    <script src="js/clock.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/toggleSidebar.js"></script>
     <script src="js/common.js"></script>
+
 </body>
 </html>
 

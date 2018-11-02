@@ -1,0 +1,19 @@
+@import "vars.scss";
+.table{
+  display: none;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  &__rows,
+  &__cols,
+  &__button{
+    padding: 3px;
+    border: 1px solid $color-text-base;
+    border-radius: 4px;
+    margin: 3px;
+  }
+
+  &__rows:placeholder,
+  &__cols:placeholder{
+    background: $color-main-content;
+  }
+}
