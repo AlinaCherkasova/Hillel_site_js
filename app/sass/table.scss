@@ -1,11 +1,9 @@
-@import "vars.scss";
+@import "_vars";
 .table{
   display: none;
   margin: auto;
   font-family: 'Lato', sans-serif;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-
   &__rows,
   &__cols,
   &__button{
@@ -15,16 +13,16 @@
     margin: 3px;
   }
 
-  &__rows:placeholder,
-  &__cols:placeholder{
+  &__rows::placeholder,
+  &__cols::placeholder {
     background: $color-main-content;
   }
   &__create{
-    border: 1px solid black;
+    border: 1px solid $color-text-base;
     margin-top: 20px;
   }
   &__create-cols{
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid $color-text-base;
   }
 }
