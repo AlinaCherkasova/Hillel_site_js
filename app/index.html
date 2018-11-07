@@ -29,7 +29,7 @@
                 </button>
                 <ul class="sidebar__menu">
                     <li class="sidebar__menu-items">
-                        <a href="#table" class="sidebar__menu-links" onclick="showTable('table')">Table</a>
+                        <a href="#table-container" class="sidebar__menu-links" onclick="showTable()">Table</a>
                     </li>
                     <li class="sidebar__menu-items">
                         <a href="#" class="sidebar__menu-links">Slider</a>
@@ -38,9 +38,9 @@
             </aside>
             <article class="content" id="content">
                 <div id="table-container" class="table">
-                    <input type="number" class="table__rows" id="rows" value="3" placeholder="Строки">
-                    <input type="number" class="table__cols" id="columns" value="2" placeholder="Столбцы">
-                    <button class="table__button" onclick="addTable();">Сформировать</button>
+                    <input type="number" class="table__rows" placeholder="Строки">
+                    <input type="number" class="table__cols" placeholder="Столбцы">
+                    <button class="table__button" onclick="addTable()">Сформировать</button>
                 </div>
             </article>
         </section>
@@ -60,7 +60,6 @@
     <script src="js/clock.js"></script>
     <script src="js/date.js"></script>
     <script src="js/toggleSidebar.js"></script>
-    <script src="js/common.js"></script>
 </body>
 </html>
 
