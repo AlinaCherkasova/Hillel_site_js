@@ -1,22 +1,33 @@
+let timeBox = {};
+
 function getTime(){
-    const HOURS = document.querySelector('#hours');
-    const MINUTES = document.querySelector('#minutes');
-    const SECONDS = document.querySelector('#seconds');
+    let hours = document.querySelector('.clock__hours');
+    let minutes = document.querySelector('.clock__minutes');
+    let seconds = document.querySelector('.clock__seconds');
 
-    var date = new Date();
-    var getHours = date.getHours();
-    var getMinutes = date.getMinutes();
-    var getSeconds = date.getSeconds();
+    let date = new Date();
 
-    function time(num) {
+    function setTime(num) {
         return (num < 10)
             ? '0' + num
             : num;
     }
 
-    HOURS.innerHTML = time(getHours);
-    MINUTES.innerHTML = time(getMinutes);
-    SECONDS.innerHTML = time(getSeconds);
-    setTimeout(getTime, 1000);
-};
+    function changeTime(elem, newTime) {
+        if (timeBox[newTime]!== date[newTime]()) {
+            timeBox[newTime] = date[newTime]();
+            elem.innerHTML = setTime(timeBox[newTime]) +
+                `${(elem === seconds)
+                    ? ''
+                    : ' :'}`;
+        }
+    }
+
+    changeTime(hours, 'getHours');
+    changeTime(minutes, 'getMinutes');
+    changeTime(seconds, 'getSeconds');
+
+    setTimeout(getTime, 1000)
+}
+
 getTime();

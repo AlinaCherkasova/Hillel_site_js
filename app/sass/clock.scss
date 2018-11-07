@@ -1,11 +1,8 @@
 @import 'vars.scss';
 
 .clock{
-	#date,
-	#clock{
-		color: $color-clock;
-		font-size: $font-size-base;
-		font-weight: bold;
-		text-align: center;
-	}
+	color: $color-clock;
+	font-size: $font-size-base;
+	font-weight: bold;
+	text-align: center;
 }

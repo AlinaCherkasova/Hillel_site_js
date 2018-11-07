@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function slider(){
     var images = ['img1.jpg', 'img2.jpg', 'img3.jpg' ];
     var slider = document.querySelector('#slideshow');
@@ -15,7 +15,7 @@ function slider(){
     }, 1000)
 }
 slider()
-=======
+
 function showTable(table) {
     display = document.querySelector('.table').style.display;
     if (display === 'none') {
@@ -57,5 +57,4 @@ function addTable() {
         return content.replaceChild(newTable, firstTable);
     }
 }
->>>>>>> 5a97899b7bb33d5d781d46fa8eaba18019dc0995
 

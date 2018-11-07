@@ -1,14 +1,11 @@
 @import "vars.scss";
 .table{
   display: none;
-<<<<<<< HEAD
   margin: auto;
   font-family: 'Lato', sans-serif;
-
-=======
   text-align: center;
   font-family: 'Lato', sans-serif;
->>>>>>> 5a97899b7bb33d5d781d46fa8eaba18019dc0995
+
   &__rows,
   &__cols,
   &__button{
@@ -22,8 +19,6 @@
   &__cols:placeholder{
     background: $color-main-content;
   }
-<<<<<<< HEAD
-
   &__create{
     border: 1px solid black;
     margin-top: 20px;
@@ -32,6 +27,4 @@
     padding: 10px;
     border: 1px solid black;
   }
-=======
->>>>>>> 5a97899b7bb33d5d781d46fa8eaba18019dc0995
 }

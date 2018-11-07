@@ -1,12 +1,12 @@
 function getDate(){
-    const DAY = document.querySelector('#day');
-    const MONTH = document.querySelector('#month');
-    const YEAR = document.querySelector('#year');
+    let myDay = document.querySelector('.clock__day');
+    let myMonth = document.querySelector('.clock__month');
+    let myYear = document.querySelector('.clock__year');
 
-    var date = new Date();
-    var year = date.getFullYear();
-    var month = date.getMonth();
-    var day = date.getDate();
+    let date = new Date();
+    let years = date.getFullYear();
+    let months = date.getMonth();
+    let days = date.getDate();
 
     function dateTime(day) {
         return (day < 10)
@@ -14,9 +14,10 @@ function getDate(){
             : day;
     }
 
-    DAY.innerHTML = dateTime(day);
-    MONTH.innerHTML = dateTime(month);
-    YEAR.innerHTML = dateTime(year);
+    myDay.innerHTML = dateTime(days) + `.`;
+    myMonth.innerHTML = dateTime(months)+ `.`;
+    myYear.innerHTML = dateTime(years);
+
     setTimeout(getTime, 1000);
-};
+}
 getDate();
