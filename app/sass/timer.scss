@@ -1,0 +1,8 @@
+@import "_vars";
+
+.timer{
+  color: $color-clock;
+  font-size: $font-size-base - 8px;
+  font-weight: bold;
+  text-align: center;
+}
