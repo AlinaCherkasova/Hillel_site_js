@@ -1,12 +1,3 @@
-function showSlider() {
-    let display = document.querySelector('#circle-slider').style.display;
-    if (display === 'none') {
-        document.querySelector('#circle-slider').style.display = 'block';
-    } else {
-        document.querySelector('#circle-slider').style.display = 'none';
-    }
-}
-
 function sliderWithArrows(){
     let elemCount = 3;
     let elemWidth = 660;

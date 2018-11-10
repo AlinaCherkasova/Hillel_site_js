@@ -187,6 +187,10 @@ main {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease; }
+  .content__tab {
+    opacity: 0; }
+    .content__tab:first-child {
+      opacity: 1; }
   .content.active {
     left: 265px; }
 
@@ -233,7 +237,7 @@ main {
   text-align: center; }
 
 .table {
-  display: none;
+  display: block;
   margin: auto;
   font-family: 'Lato', sans-serif;
   text-align: center; }

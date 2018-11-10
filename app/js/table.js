@@ -1,12 +1,3 @@
-function showTable() {
-    let display = document.querySelector('#table-container').style.display;
-    if (display === 'none') {
-        document.querySelector('#table-container').style.display = 'block';
-    } else {
-        document.querySelector('#table-container').style.display = 'none';
-    }
-}
-
 function addTable() {
     let content = document.querySelector('.table');
     let rows = document.querySelector('.table__rows').value;

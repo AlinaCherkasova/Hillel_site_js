@@ -9,6 +9,13 @@
   height: 100%;
   width: 80%;
   transition: 0.3s ease;
+
+  &__tab{
+    opacity: 0;
+    &:first-child{
+      opacity: 1;
+    }
+  }
   &.active{
     left: 265px;
   }
