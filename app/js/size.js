@@ -1,20 +1,29 @@
-function showSize() {
-    let timerOutId;
-    let size = document.querySelector('.size');
-    let docElem = document.documentElement;
+function setSizeOfPage(){
+    const SIZE = document.createElement('div');
+    SIZE.className = ('size');
 
-    size.textContent = `${docElem.clientWidth} x ${docElem.clientHeight}`;
-    window.addEventListener('resize', checkTimer);
+    let footer = document.querySelector('.footer__container');
+    footer.appendChild(SIZE);
 
-    function checkTimer() {
-        window.removeEventListener('resize', checkTimer);
-        clearTimeout(timerOutId);
-        timerOutId = setTimeout(putSize, 2000);
+    function showSizeOfPage() {
+        let timerOutId;
+        let size = document.querySelector('.size');
+        let elem = document.documentElement;
+
+        size.textContent = `${elem.clientWidth} x ${elem.clientHeight}`;
         window.addEventListener('resize', checkTimer);
 
-        function putSize() {
-            size.textContent = `${docElem.clientWidth} x ${docElem.clientHeight}`;
+        function checkTimer() {
+            window.removeEventListener('resize', checkTimer);
+            clearTimeout(timerOutId);
+            timerOutId = setTimeout(setSize, 2000);
+            window.addEventListener('resize', checkTimer);
+
+            function setSize() {
+                size.textContent = `${elem.clientWidth} x ${elem.clientHeight}`;
+            }
         }
     }
+    showSizeOfPage();
 }
-showSize();
+setSizeOfPage();

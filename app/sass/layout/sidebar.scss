@@ -1,4 +1,4 @@
-@import '_vars';
+@import '../_base/_vars.scss';
 
 .sidebar{
 	position: fixed;
@@ -8,7 +8,7 @@
 	width: 230px;
 	height: 100%;
 	transition: 0.3s ease;
-	z-index: 999;
+	z-index: 998;
 
 	&.active{
 		left: 0;

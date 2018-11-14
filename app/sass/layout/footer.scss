@@ -1,4 +1,4 @@
-@import '_vars';
+@import '../_base/_vars.scss';
 
 .footer{
 	position: fixed;
@@ -11,12 +11,13 @@
 	z-index:9999;
 	&__container{
 		display: flex;
+		flex-direction: row-reverse;
 		justify-content: space-between;
 		padding: 0 15px;
 	}
 	&__right-side{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		line-height: 30px;
 	}
 }

@@ -1,33 +1,52 @@
-let timeBox = {};
+function setClock(){
+    let header = document.querySelector('.header__container');
 
-function getTime(){
-    let hours = document.querySelector('.clock__hours');
-    let minutes = document.querySelector('.clock__minutes');
-    let seconds = document.querySelector('.clock__seconds');
+    const CLOCK = document.createElement('div');
+    const HOURS = document.createElement('span');
+    const MINUTES = document.createElement('span');
+    const SECONDS = document.createElement('span');
 
-    let date = new Date();
+    CLOCK.className = ('clock');
+    HOURS.className = ('clock__hours');
+    MINUTES.className = ('clock__minutes');
+    SECONDS.className = ('clock__seconds');
 
-    function setTime(num) {
-        return (num < 10)
-            ? '0' + num
-            : num;
-    }
+    header.appendChild(CLOCK);
+    CLOCK.appendChild(HOURS);
+    CLOCK.appendChild(MINUTES);
+    CLOCK.appendChild(SECONDS);
 
-    function changeTime(elem, newTime) {
-        if (timeBox[newTime]!== date[newTime]()) {
-            timeBox[newTime] = date[newTime]();
-            elem.innerHTML = setTime(timeBox[newTime]) +
-                `${(elem === seconds)
-                    ? ''
-                    : ' :'}`;
+    let timeBox = {};
+
+    function getTime(){
+        let hours = document.querySelector('.clock__hours');
+        let minutes = document.querySelector('.clock__minutes');
+        let seconds = document.querySelector('.clock__seconds');
+
+        let date = new Date();
+
+        function setTime(value) {
+            return (value < 10)
+                ? '0' + value
+                : value;
         }
+
+        function changeTime(elem, newTime) {
+            if (timeBox[newTime]!== date[newTime]()) {
+                timeBox[newTime] = date[newTime]();
+                elem.innerHTML = setTime(timeBox[newTime]) +
+                    `${(elem === seconds)
+                        ? ''
+                        : ' : '}`;
+            }
+        }
+
+        changeTime(hours, 'getHours');
+        changeTime(minutes, 'getMinutes');
+        changeTime(seconds, 'getSeconds');
+
+        setTimeout(getTime, 1000);
     }
-
-    changeTime(hours, 'getHours');
-    changeTime(minutes, 'getMinutes');
-    changeTime(seconds, 'getSeconds');
-
-    setTimeout(getTime, 1000)
+    getTime();
 }
-
-getTime();
+setClock();
