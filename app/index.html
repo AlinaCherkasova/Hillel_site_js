@@ -11,18 +11,8 @@
 </head>
 <body>
     <main class="main">
-        <header class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <h1 class="header__logo_text">Hillel layout</h1>
-                </div>
-            </div>
-        </header>
-        <section class="main-content">
-            <aside class="sidebar" id="toggleSidebar">
-                <button class="sidebar__toggle-btn" onclick="toggleSidebar()">
-                    <span class="sidebar__toggle-item" id="toggleSpan"></span>
-                </button>
+        <section class="page">
+            <aside class="sidebar">
                 <ul class="sidebar__menu">
                     <li class="sidebar__menu-items">
                         <a href="#table-container" class="sidebar__menu-links">Table</a>
@@ -30,48 +20,66 @@
                     <li class="sidebar__menu-items">
                         <a href="#circle-slider" class="sidebar__menu-links">Slider</a>
                     </li>
+                    <li class="sidebar__menu-items">
+                        <a href="#click-me" class="sidebar__menu-links">ClickMe</a>
+                    </li>
+                    <li class="sidebar__menu-items">
+                        <a href="#" class="sidebar__menu-links">Student's table</a>
+                    </li>
+                    <li class="sidebar__menu-items">
+                        <a href="#" class="sidebar__menu-links">Two Sliders</a>
+                    </li>
+                    <li class="sidebar__menu-items">
+                        <a href="#" class="sidebar__menu-links">Promises</a>
+                    </li>
+                    <li class="sidebar__menu-items">
+                        <a href="#" class="sidebar__menu-links">HW_19</a>
+                    </li>
                 </ul>
             </aside>
             <article class="content" id="content">
-                <div id="table-container" class="content__tab table">
-                    <input type="number" class="table__rows" placeholder="Строки">
-                    <input type="number" class="table__cols" placeholder="Столбцы">
-                    <button class="table__button" onclick="addTable()">Сформировать</button>
-                </div>
-                <div class="content__tab slider" id="circle-slider">
-                    <i class="fa fa-chevron-circle-left prev"></i>
-                    <i class="fa fa-chevron-circle-right next"></i>
-                    <div class="slider__container">
-                        <div class="slider__thumbs">
-                            <div class="slider__img-wrapper">
-                                <img class="slider__img" src="img/img1.jpg" alt="img1">
-                            </div>
-                            <div class="slider__img-wrapper">
-                                <img class="slider__img" src="img/img2.jpg" alt="img2">
-                            </div>
-                            <div class="slider__img-wrapper">
-                                <img class="slider__img" src="img/img3.jpg" alt="img3">
+                <div class="content__container">
+                    <div id="table-container" class="content__tab table">
+                        <input type="number" class="table__rows" placeholder="Строки">
+                        <input type="number" class="table__cols" placeholder="Столбцы">
+                        <button class="table__button" onclick="addTable()">Сформировать</button>
+                    </div>
+                    <div class="content__tab slider" id="circle-slider">
+                        <i class="fa fa-chevron-circle-left prev"></i>
+                        <i class="fa fa-chevron-circle-right next"></i>
+                        <div class="slider__container">
+                            <div class="slider__thumbs">
+                                <div class="slider__img-wrapper">
+                                    <img class="slider__img" src="img/img1.jpg" alt="img1">
+                                </div>
+                                <div class="slider__img-wrapper">
+                                    <img class="slider__img" src="img/img2.jpg" alt="img2">
+                                </div>
+                                <div class="slider__img-wrapper">
+                                    <img class="slider__img" src="img/img3.jpg" alt="img3">
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div id="click-me" class="content__tab click-me">
+                        <input type="button" id="my_button" class="my-button" value="my_button">
                     </div>
                 </div>
             </article>
         </section>
-        <footer class="footer">
-            <div class="footer__container">
-                <div class="footer__right-side">
-                </div>
-            </div>
-        </footer>
     </main>
+    <script src="js/header.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/size.js"></script>
     <script src="js/table.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/date.js"></script>
-    <script src="js/toggleSidebar.js"></script>
+    <script src="js/showSidebar.js"></script>
     <script src="js/timer.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/tabs.js"></script>
+    <script src="js/clickMe.js"></script>
 </body>
 </html>
 

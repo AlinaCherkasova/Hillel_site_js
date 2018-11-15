@@ -1,4 +1,4 @@
-function setDate(){
+function addDate(){
     let footer = document.querySelector('.footer__right-side');
 
     const CLOCK = document.createElement('div');
@@ -6,10 +6,10 @@ function setDate(){
     const MONTH = document.createElement('span');
     const YEARS = document.createElement('span');
 
-    CLOCK.className = ('clock');
-    DAY.className = ('clock__day');
-    MONTH.className = ('clock__month');
-    YEARS.className = ('clock__year');
+    CLOCK.className = 'clock';
+    DAY.className = 'clock__day';
+    MONTH.className = 'clock__month';
+    YEARS.className = 'clock__year';
 
     footer.appendChild(CLOCK);
     CLOCK.appendChild(DAY);
@@ -33,9 +33,9 @@ function setDate(){
         }
 
         myDay.innerHTML = dateTime(days) + ` . `;
-        myMonth.innerHTML = dateTime(months)+ ` . `;
+        myMonth.innerHTML = dateTime(months) + 1 + ` . `;
         myYear.innerHTML = dateTime(years);
     }
     getDate();
 }
-setDate();
+addDate();

@@ -1,4 +1,4 @@
-function setTimer(){
+function addTimer(){
     let footer = document.querySelector('.footer__right-side');
 
     const TIMER = document.createElement('div');
@@ -6,10 +6,10 @@ function setTimer(){
     const MINUTES = document.createElement('span');
     const SECONDS = document.createElement('span');
 
-    TIMER.className = ('timer');
-    HOURS.className = ('timer__hours');
-    MINUTES.className = ('timer__minutes');
-    SECONDS.className = ('timer__seconds');
+    TIMER.className = 'timer';
+    HOURS.className = 'timer__hours';
+    MINUTES.className = 'timer__minutes';
+    SECONDS.className = 'timer__seconds';
 
     footer.appendChild(TIMER);
     TIMER.appendChild(HOURS);
@@ -79,4 +79,4 @@ function setTimer(){
     }
     timer();
 }
-setTimer();
+addTimer();

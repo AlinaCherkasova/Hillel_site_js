@@ -4,12 +4,16 @@
   position: fixed;
   top: 60px;
   left: 38px;
-  text-align: center;
-  padding: 15px 20px;
-  height: 100%;
+  padding: 15px 50px;
+  height: 84%;
   width: 80%;
+  overflow: auto;
   transition: 0.3s ease;
-
+  &__container{
+    margin: auto;
+    padding: 0 0 35px;
+    max-width: 1040px;
+  }
   &__tab{
     opacity: 0;
     &:first-child{

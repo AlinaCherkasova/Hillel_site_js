@@ -1,6 +1,6 @@
-function setSizeOfPage(){
+function addSizeOfPage(){
     const SIZE = document.createElement('div');
-    SIZE.className = ('size');
+    SIZE.className = 'size';
 
     let footer = document.querySelector('.footer__container');
     footer.appendChild(SIZE);
@@ -26,4 +26,4 @@ function setSizeOfPage(){
     }
     showSizeOfPage();
 }
-setSizeOfPage();
+addSizeOfPage();

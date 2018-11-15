@@ -1,4 +1,4 @@
-function setClock(){
+function addClock(){
     let header = document.querySelector('.header__container');
 
     const CLOCK = document.createElement('div');
@@ -6,10 +6,10 @@ function setClock(){
     const MINUTES = document.createElement('span');
     const SECONDS = document.createElement('span');
 
-    CLOCK.className = ('clock');
-    HOURS.className = ('clock__hours');
-    MINUTES.className = ('clock__minutes');
-    SECONDS.className = ('clock__seconds');
+    CLOCK.className = 'clock';
+    HOURS.className = 'clock__hours';
+    MINUTES.className = 'clock__minutes';
+    SECONDS.className = 'clock__seconds';
 
     header.appendChild(CLOCK);
     CLOCK.appendChild(HOURS);
@@ -49,4 +49,4 @@ function setClock(){
     }
     getTime();
 }
-setClock();
+addClock();
