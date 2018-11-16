@@ -19,6 +19,7 @@
 		padding: 10px 20px;
 		color: $color-text-base;
 		border-bottom: 1px solid $color-toggle;
+		cursor: pointer;
 		&:hover{
 			color: $color-links;
 		}

@@ -1,0 +1,30 @@
+@import '../_base/_vars.scss';
+
+.students{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  &__wrap-items{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+  }
+
+  &__item{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid $color-text-base;
+  }
+  &__button{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: $color-toggle;
+    cursor: pointer;
+  }
+}

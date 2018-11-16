@@ -24,7 +24,7 @@
                         <a href="#click-me" class="sidebar__menu-links">ClickMe</a>
                     </li>
                     <li class="sidebar__menu-items">
-                        <a href="#" class="sidebar__menu-links">Student's table</a>
+                        <a href="#students-table" class="sidebar__menu-links">Student's table</a>
                     </li>
                     <li class="sidebar__menu-items">
                         <a href="#" class="sidebar__menu-links">Two Sliders</a>
@@ -39,11 +39,11 @@
             </aside>
             <article class="content" id="content">
                 <div class="content__container">
-                    <div id="table-container" class="content__tab table">
+                   <!-- <div id="table-container" class="content__tab table">
                         <input type="number" class="table__rows" placeholder="Строки">
                         <input type="number" class="table__cols" placeholder="Столбцы">
-                        <button class="table__button" onclick="addTable()">Сформировать</button>
-                    </div>
+                        <button class="table__button">Сформировать</button>
+                    </div>-->
                     <div class="content__tab slider" id="circle-slider">
                         <i class="fa fa-chevron-circle-left prev"></i>
                         <i class="fa fa-chevron-circle-right next"></i>
@@ -63,6 +63,32 @@
                     </div>
                     <div id="click-me" class="content__tab click-me">
                         <input type="button" id="my_button" class="my-button" value="my_button">
+                    </div>
+                    <div id="students-table" class="content__tab students">
+                        <div class="students__wrap-items">
+                            <label>
+                                <input class="students__item" type="text" placeholder="Name">
+                            </label>
+                            <label>
+                                <input class="students__item" type="text" placeholder="Surname">
+                            </label>
+                        </div>
+                        <div class="students__wrap-items">
+                            <label>
+                                <input class="students__item" type="number" placeholder="Entrance">
+                            </label>
+                            <label>
+                                <input class="students__item" type="number" placeholder="Ending">
+                            </label>
+                        </div>
+                        <div class="students__wrap-items">
+                            <label>
+                                <input class="students__button" type="button" value="SAVE">
+                            </label>
+                            <label>
+                                <input class="students__button" type="button" value="DEL">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </article>
