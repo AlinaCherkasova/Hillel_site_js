@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582ba7c7-d04d-49c4-a784-354818571e4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/promises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/simpleSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/clickMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/clickMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/showSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/showSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/showSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/img/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/img/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/img/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/clock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/size.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/timer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dist/js/toggleSidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/toggleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/clockAndDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/sidebar.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,35 +27,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/showSidebar.js">
+        <entry file="file://$PROJECT_DIR$/../../fe_gmzn-master/HW_20/hw20_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="46">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/common.js">
+        <entry file="file://$PROJECT_DIR$/js/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="113">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!block;n#addFooter#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/tabs.js">
+        <entry file="file://$PROJECT_DIR$/sass/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="276">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="72" column="42" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/sidebar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="33" column="7" selection-start-line="26" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -72,13 +91,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/ClockAndDate.js" />
+        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/js/showSidebar.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/tabs.js" />
+        <option value="$PROJECT_DIR$/sass/sidebar.scss" />
+        <option value="$PROJECT_DIR$/js/page.js" />
+        <option value="$PROJECT_DIR$/sass/header.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -102,6 +126,11 @@
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,24 +166,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543174014643</updated>
-      <workItem from="1543174018539" duration="1076000" />
+      <workItem from="1543174018539" duration="1262000" />
+      <workItem from="1543260150256" duration="5644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1076000" />
+    <option name="totallyTimeSpent" value="6906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -162,6 +188,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -171,9 +201,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/toggleSidebar.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Hillel_layout/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1505">
@@ -191,31 +218,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/showSidebar.js">
+    <entry file="file://$PROJECT_DIR$/../../fe_gmzn-master/HW_16/hw16_2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../fe_gmzn-master/HW_16/hw16_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="51" column="11" lean-forward="true" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/date.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <caret line="40" column="10" lean-forward="true" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="81" column="11" lean-forward="true" selection-end-line="81" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="26" column="12" lean-forward="true" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#addHeader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#addFooter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/toggleSidebar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/clockAndDate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret lean-forward="true" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!block;n#addClock#0" />
+            <element signature="n#!!block;n#addTimer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/size.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="7" selection-start-line="26" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../fe_gmzn-master/HW_20/hw20_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!block;n#addFooter#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="1380">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DI57.288/toggle.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tabs.js">
+    <entry file="file://$PROJECT_DIR$/sass/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="276">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,42 @@
 function showTabs(){
-    let links = document.querySelectorAll('.sidebar__menu-items');
-    let content = document.querySelectorAll('.content__tab');
+    // let ul = document.querySelector('.sidebar__menu');
+    // let tab;
+    // let tabContent;
+    //
+    // window.onload = function() {
+    //     tab = document.querySelectorAll('.sidebar__menu-links');
+    //     tabContent = document.querySelectorAll('.content__tab');
+    //     hideTabsContent(1);
+    // };
+    //
+    //
+    // ul.onclick= function (event) {
+    //     let target = event.target;
+    //     if (target.className === 'sidebar__menu-links') {
+    //         for ( let i = 0; i < tab.length; i++) {
+    //             if (target === tab[i]) {
+    //                 showTabsContent(i);
+    //                 break;
+    //             }
+    //         }
+    //     }
+    // };
+    //
+    // function hideTabsContent(a) {
+    //     for (let i = a; i < tabContent.length; i++) {
+    //         tabContent[i].classList.remove('show');
+    //         tabContent[i].classList.add('hide');
+    //     }
+    // }
+    //
+    // function showTabsContent(b){
+    //     if (tabContent[b].classList.contains('hide') ) {
+    //         hideTabsContent(0);
+    //         tabContent[b].classList.remove('hide');
+    //         tabContent[b].classList.add('show');
+    //     }
+    // }
+
     for (let i = 0; i < links.length; i++) {
         ( function (i) {
             let link = links[i];

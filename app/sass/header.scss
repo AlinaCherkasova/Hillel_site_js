@@ -9,21 +9,26 @@
     background: $color-background-main;
     color: $color-text-base;
     z-index:9999;
+
     &__container{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 15px;
     }
+
     &__search-wrap{
         width: 150px;
         height: 30px;
+        z-index: 999999;
     }
-    &__search{
+
+    &__search {
         width: 100%;
         height: 100%;
         padding: 5px;
         border: 1px solid $color-clock;
         border-radius: 6px;
+        z-index: 9999999;
     }
 }
